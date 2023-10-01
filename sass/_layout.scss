@@ -11,8 +11,8 @@
     display: flex ;
     height: 7rem;
     background-color: #fff;
-    border-bottom: var(--color-grey-light-2);
-    font-size: 1.4rem;
+    border-bottom: 1px solid var(--color-grey-light-2);
+    font-size: 1.4rem; 
     justify-content: space-between;
     align-items: center;
 }
@@ -40,4 +40,18 @@
    flex: 1; 
 
    height: 80rem;
+}
+
+
+.detail {
+ display: flex;
+}
+
+.description {
+background-color: red;
+flex: 0 0 60%;
+}
+
+.user-reviews {
+background-color: orange;
 }
